@@ -41,6 +41,10 @@ header {
 .header-a:hover::after {
   width: 100%;
 }
+header *::selection {
+  background: #F6F6F8;
+  color: #000000;
+}
 .section1 {
   display: flex;
   justify-content: center;
@@ -85,6 +89,10 @@ header {
   line-height: 20px;
   padding: 13px 35px;
   font-family: 'Montserrat', sans-serif;
+}
+.section1 *::selection {
+  background: #F6F6F8;
+  color: #000000;
 }
 .section2 {
   display: flex;
@@ -180,6 +188,10 @@ header {
 .contact-button:hover {
   background: #323232;
 }
+.section3 *::selection {
+  background: #000000;
+  color: #F6F6F8;
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -220,6 +232,10 @@ footer {
 }
 .footer-a:hover {
   color: rgb(220, 220, 220);
+}
+footer *::selection {
+  background: #F6F6F8;
+  color: #000000;
 }
 .rights {
   text-align: center;
