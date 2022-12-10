@@ -8,7 +8,7 @@ body {
   color: #323232;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 header {
   position: absolute;
