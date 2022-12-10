@@ -11,7 +11,7 @@ body {
 }
 header {
   position: absolute;
-  min-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #A1A1A1;
@@ -156,19 +156,29 @@ header {
   text-align: center;
   align-items: center;
 }
-.section3-content-h2 {
-
-}
 .section3-content-p {
   font-weight: 400;
   line-height: 25px;
 }
-.section3 button {
-  background: #000000;
+.contact-button-a {
+  display: flex;
+  align-self: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 35px;
+  font-family: 'Montserrat', sans-serif;
 }
-.section3 button:hover {
+.contact-button {
   background: #000000;
-  opacity: 0.6;
+  border-radius: 30px;
+  border: none;
+  transition: 0.1s;
+}
+.contact-button:hover {
+  background: #323232;
 }
 footer {
   display: flex;
